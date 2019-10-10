@@ -1,0 +1,6 @@
+mutation createVehicle($type:String!,$modelCode:String!,$brandName:String!,$launchDate:String!) {
+    createVehicle(type: $type, modelCode: $modelCode, brandName: $brandName, launchDate: $launchDate)
+    {
+        id
+    }
+}

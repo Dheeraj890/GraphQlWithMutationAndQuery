@@ -1,0 +1,8 @@
+query getVechileData {
+    vehicles(count: 102)
+    {
+        id,
+        type,
+        modelCode
+    }
+}
